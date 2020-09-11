@@ -1,0 +1,61 @@
+
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.calculator {
+  width: 294.075px;
+  height: 437.312;
+  flex-direction: column;
+  background-color: black;
+  padding:  0px 4px 2px 4px;
+  border-radius: 5px;
+  
+}
+
+.row{
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 4px;
+}
+
+button {
+  width: 5em;
+  height: 5em;
+}
+
+.but-calc {
+  width: 5em;
+  height: 5em;
+}
+
+.but-calc:active {
+  color: white;
+  background-color:black;
+}
+
+
+
+.display {
+  font-size: xx-large;
+  display: flex;
+  color: aqua;
+  height: 4rem;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 10px;
+}
+
+.cancel {
+  width: 47.7%;
+}
+
+.btn-zero{
+  width: 73%;
+}
+
